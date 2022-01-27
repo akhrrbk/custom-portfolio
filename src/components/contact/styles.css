@@ -1,0 +1,84 @@
+.portfolio__contact {
+  height: 100vh;
+  position: relative;
+}
+
+.portfolio__contact-bg {
+  height: 100%;
+  width: 1.5rem;
+  background-color: lightgreen;
+  position: absolute;
+}
+
+.portfolio__contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  padding: 3rem;
+}
+
+.portfolio__contact-left {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio__contact-left_info {
+  margin: 0 0.5rem;
+}
+
+.portfolio__contact-left_info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 3rem 0;
+}
+
+.portfolio__contact-left_info h1 {
+  font-size: 60px;
+  width: 50%;
+}
+
+.portfolio__contact-left_info img {
+  height: 16px;
+  width: 16px;
+  margin-right: 20px;
+}
+
+.portfolio__contact-right {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+
+.portfolio__contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__contact-right form input,
+.portfolio__contact-right form button {
+  margin: 1rem 0;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.portfolio__contact-right form textarea {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.portfolio__contact-right form button {
+  border: none;
+  padding: 1rem;
+  background-color: lightgreen;
+  color: #fff;
+  cursor: pointer;
+}
