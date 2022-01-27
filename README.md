@@ -1,5 +1,6 @@
 3/30 projects of a [30-day-challenge](https://github.com/akhrrbk/30-day-challenge)
 
+--------------------------------------------
 ### Custom Portfolio 
 project is built with emailjs-com package and has an auth feature
 
