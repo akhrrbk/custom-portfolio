@@ -2,7 +2,8 @@
 
 --------------------------------------------
 ### Custom Portfolio 
-project is built with emailjs-com package and has an auth feature
+project is built using React.
+only depencency used is: emailjs-com
 
 app is deployed [here](#)
 
