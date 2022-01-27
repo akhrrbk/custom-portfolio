@@ -3,7 +3,7 @@
 --------------------------------------------
 ### Custom Portfolio 
 project is built using React.
-only depencency used is: emailjs-com
+emailjs-com depencency is used to accept data from the form submission 
 
 app is deployed [here](#)
 
