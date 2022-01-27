@@ -4,7 +4,7 @@ import {About, Contact, Intro, Toggle} from './components'
 function App() {
   return (
     <div className="App">
-      <Toggle />
+      {/* <Toggle /> */}
       <Intro />
       <About />
       <Contact />
