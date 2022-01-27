@@ -1,9 +1,8 @@
-import React, {useState, useRef, useContext} from 'react';
+import React, {useRef} from 'react';
 import './styles.css'
 import phone from '../../assets/phone.png'
 import address from '../../assets/address.png'
 import email from '../../assets/email.png'
-import { ThemeContext } from '../../context';
 import emailjs from "emailjs-com";
 
 const Contact = () => {

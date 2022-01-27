@@ -65,7 +65,7 @@
 .portfolio__contact-right form input,
 .portfolio__contact-right form button {
   margin: 1rem 0;
-  width: 50%;
+  width: 60%;
   border: none;
   border-bottom: 1px solid black;
 }
@@ -81,4 +81,39 @@
   background-color: lightgreen;
   color: #fff;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio__contact-container {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+  .portfolio__contact-left_info h1 {
+    font-size: 20px;
+  }
+  .portfolio__contact-left_info div {
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .portfolio__contact-left_info {
+    margin: 0;
+    flex-direction: column;
+  }
+  .portfolio__contact-right {
+    margin: 0;
+  }
+  .portfolio__contact-right p {
+    margin-top: 2rem;
+  }
+
+  .portfolio__contact-right form button {
+    padding: 10px 0;
+    width: 6rem;
+  }
+
+  .portfolio__contact-right form input {
+    width: 100%;
+  }
 }
