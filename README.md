@@ -4,8 +4,9 @@
 ### Custom Portfolio 
 project is built using React.
 emailjs-com depencency is used to accept data from the form submission 
+more changes shall be made later
 
-app is deployed [here](#)
+app is deployed [here](https://musing-gates-5edc9e.netlify.app/)
 
 to run this app locally on your machine
 * clone the project
